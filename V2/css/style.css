@@ -179,14 +179,17 @@
 
 /* header area adinationals */
 .logo {
-	float: left;
-	width: 25%;
+    float: left;
+    width: 14%;
+    background-color: #1da4dd;
+}
+.logo img {
+    float: left;
+    margin-left: 27px;
 }
 .menu_main {
 	float: right;
-	width: 75%;
-	z-index: 9999;
-	position: relative;
+    width: 86%;
 }
 
 .slider_ex {
@@ -327,20 +330,20 @@
 .feature_section2 {
 	float: left;
 	width: 100%;
-	padding: 35px 0px;
-	background-color: #13afeb;
+	padding: 70px 0px 50px 0px;
 }
-.feature_section2 a {
-	float: right;
-	color: #13afeb;
+.feature_section2 .left {
+	float: left;
+	width: 40%;
+}
+.feature_section2 .right {
+	float: left;
+	width: 57%;
+	padding-top: 50px;
+	color: #999;
 	font-size: 16px;
-	padding: 13px 35px;
-	background-color: #fff;
-	border-radius: 4px;
-	text-transform: uppercase;
-}
-.feature_section2 a:hover {
-	color: #272727;
+	line-height: 28px;
+	font-weight: 300;
 }
 
 /* features section 3 */
@@ -348,11 +351,16 @@
 	float: left;
 	width: 100%;
 	padding: 70px 0px 46px 0px;
+	background-color: #0390d4;
 }
 .feature_section3.two {
 	float: left;
 	width: 100%;
 	padding: 0px 0px 0px 0px;
+}
+.feature_section3 h2 {
+	color: white;
+	text-align: center;
 }
 
 /* features section 4 */
@@ -464,25 +472,7 @@
 	width: 89%;
 }
 
-/* features section 8 */
-.feature_section8 {
-	float: left;
-	width: 100%;
-	padding: 70px 0px 50px 0px;
-}
-.feature_section8 .left {
-	float: left;
-	width: 40%;
-}
-.feature_section8 .right {
-	float: left;
-	width: 57%;
-	padding-top: 50px;
-	color: #999;
-	font-size: 16px;
-	line-height: 28px;
-	font-weight: 300;
-}
+
 
 /* features section 9 */
 .feature_section9 {
@@ -1697,7 +1687,7 @@ ul.fun_facts {
 	width: 100%;
 	text-align: center;
 	padding: 65px 0px 50px 0px;
-	background: #eee url("../images/parallax-bg-dark.jpg");
+	background: #eee url("../images/background-para.png");
 	background-attachment: fixed;
 	background-origin: initial;
 	background-clip: initial;
@@ -5171,4 +5161,108 @@ a.knowmore_but:hover {
 	float: left;
 	width: 100%;
 	padding: 30px 0px 58px 0px;
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	5.	Features Style
+/*-------------------------------------------------------------------------*/
+#features .tabpanel_list li {
+    color: #777;
+    padding: 5px 5px 5px 35px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    background: url(../images/price_checked.png) no-repeat left center;
+}
+
+#features .tabpanel_txtblock {
+    width: 55%;
+    display: block;
+    float: left;
+    font-weight: 600;
+}
+
+#features .tabpanel_txtblock h2 {
+    text-align: left;
+}
+
+#features .tabpanel_txtblock p {
+    text-align: left;
+    margin: 0px 0px 35px 0px;
+}
+
+#features .tabpanel_imgblock {
+    width: 40%;
+    display: block;
+    float: right;
+    max-height: 570px;
+}
+
+#features .tabpanel_imgblock img {
+    max-height: 570px;
+    float: right;
+}
+
+#features .tab-content > .tab-pane {
+    margin-bottom: 30px;
+    min-height: 570px;
+}
+
+#features .nav_tabs_wrap {
+    padding-top: 20px;
+}
+
+#features .nav-tabs {
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+}
+
+#features .nav-tabs > li > a {
+    border: none;
+    padding: 15px 67.2px 15px 68px;
+    color: #777;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#features .nav-tabs > li.active > a, #features .nav-tabs > li.active > a:hover, #features .nav-tabs > li.active > a:focus {
+    border: none;
+    color: #2a2a2a;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#features .nav-tabs > li > a:hover, #features .nav-tabs > li > a:focus {
+    border: none;
+    color: #2a2a2a;
+}
+
+#features .nav-tabs > li.active > a:hover, #features .nav-tabs > li.active > a:focus, #features .nav > li > a:hover, #features .nav > li > a:focus {
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+}
+
+#features .nav-tabs > li.active > a:before {
+    background: url(../images/feature_arrow.png) no-repeat 0px center;
+    content: "";
+    height: 10px;
+    left: 127px;
+    position: absolute;
+    top: -9px;
+    width: 18px;
+    z-index: 9;
+}
+
+#features .nav-tabs > li > a:hover:before,
+#features .nav-tabs > li > a:focus:before {
+    background: url(../images/feature_arrow.png) no-repeat 0px center;
+    content: "";
+    height: 10px;
+    left: 127px;
+    position: absolute;
+    top: -9px;
+    width: 18px;
+    z-index: 9;
 }
