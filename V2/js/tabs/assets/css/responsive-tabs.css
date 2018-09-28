@@ -77,7 +77,7 @@ ul.tabs {
 	width: auto;
 }
 .tabs-content .tabs-panel {
-	padding: 20px;
+	padding: 20px;	
 }
 .tabs-content .tabs-panel .tab-title {
 	display: none;

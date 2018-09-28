@@ -331,7 +331,17 @@
 	float: left;
 	width: 100%;
 	padding: 70px 0px 50px 0px;
+	background-color: #0390d4;
 }
+.feature_section2 h2 {
+	text-align: center;
+	color: white;
+}
+.feature_section2 h4,
+.feature_section2 li {
+	color: white;
+}
+
 .feature_section2 .left {
 	float: left;
 	width: 40%;
@@ -349,74 +359,35 @@
 /* features section 3 */
 .feature_section3 {
 	float: left;
+	color: #999;
 	width: 100%;
-	padding: 70px 0px 46px 0px;
-	background-color: #0390d4;
+	padding: 0px 0px 46px 0px;
+	
 }
 .feature_section3.two {
 	float: left;
 	width: 100%;
 	padding: 0px 0px 0px 0px;
 }
-.feature_section3 h2 {
-	color: white;
+.feature_section3 h2 {	
 	text-align: center;
 }
 
 /* features section 4 */
 .feature_section4 {
 	float: left;
+	color: #999;
 	width: 100%;
+	padding: 70px 0px 46px 0px;
+	
+}
+.feature_section4.two {
+	float: left;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+}
+.feature_section4 h2 {	
 	text-align: center;
-	padding: 64px 0px 70px 0px;
-}
-.feature_section4 i {
-	font-size: 45px;
-	color: #939393;
-	margin-bottom: 20px;
-}
-.feature_section4 .cornered {
-    box-sizing:border-box;
-    height: 0px;
-    border-bottom: 18px solid #fff;
-    border-left: 18px solid transparent;
-	-webkit-transition: border-bottom .3s, -webkit-transform .3s;
-	transition: border-bottom .3s, transform .3s;
-}
-.feature_section4 .cornered2 {
-    box-sizing:border-box;
-    height: 0px;
-    border-top: 18px solid #fff;
-    border-right: 18px solid transparent;
-	-webkit-transition: border-top .3s, -webkit-transform .3s;
-	transition: border-top .3s, transform .3s;
-}
-.feature_section4 .ccont {
-    background-color: #fff;
-	padding: 20px;
-	-webkit-transition: background-color .3s, -webkit-transform .3s;
-    transition: background-color .3s, transform .3s;
-}
-.feature_section4 .one_fourth:hover i,
-.feature_section4 .one_fourth.active i{
-	color: #fff;
-}
-.feature_section4 .one_fourth:hover .cornered,
-.feature_section4 .one_fourth.active .cornered {
-    border-bottom: 18px solid #13afeb;
-}
-.feature_section4 .one_fourth:hover .cornered2,
-.feature_section4 .one_fourth.active .cornered2 {
-    border-top: 18px solid #13afeb;
-}
-.feature_section4 .one_fourth:hover .ccont,
-.feature_section4 .one_fourth.active .ccont {
-	color: #fff;
-    background-color: #13afeb;
-}
-.feature_section4 .one_fourth:hover .ccont h5,
-.feature_section4 .one_fourth.active .ccont h5 {
-	color: #fff;
 }
 
 /* features section 5 */
@@ -1686,7 +1657,7 @@ ul.fun_facts {
 	float: left;
 	width: 100%;
 	text-align: center;
-	padding: 65px 0px 50px 0px;
+	padding: 65px 0px 0px 0px;
 	background: #eee url("../images/background-para.png");
 	background-attachment: fixed;
 	background-origin: initial;
@@ -1736,6 +1707,9 @@ ul.fun_facts {
 	-webkit-transition: background-color .8s, -webkit-transform .8s;
     transition: background-color .8s, transform .8s;
 }
+.parallax_sec1 .left li p {
+	margin-right: 102px;
+}
 
 .parallax_sec1 ul.right {
 	float: left;
@@ -1773,6 +1747,10 @@ ul.fun_facts {
 	-webkit-transition: background-color .8s, -webkit-transform .8s;
     transition: background-color .8s, transform .8s;
 }
+.parallax_sec1 .right li p {
+	margin-left: 102px;
+}
+
 
 .parallax_sec1 .left li:hover i,
 .parallax_sec1 .right li:hover i {
@@ -5165,77 +5143,76 @@ a.knowmore_but:hover {
 
 
 
-/*-------------------------------------------------------------------------*/
-/*	5.	Features Style
-/*-------------------------------------------------------------------------*/
-#features .tabpanel_list li {
-    color: #777;
-    padding: 5px 5px 5px 35px;
+#features {
+    text-align: center;
+    padding-bottom: 40px;
+    background: #0390d4;
+}
+.parallax_sec1 #features {
+	background: transparent;
+}
+
+#features h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 0px;
+    margin: 25px 0px 20px 0px;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+}
+#features h2 span {
+    font-weight: 800;
+}
+#features p {
+    font-size: 17px;
     line-height: 25px;
-    margin-bottom: 25px;
-    background: url(../images/price_checked.png) no-repeat left center;
-}
-
-#features .tabpanel_txtblock {
-    width: 55%;
-    display: block;
-    float: left;
-    font-weight: 600;
-}
-
-#features .tabpanel_txtblock h2 {
-    text-align: left;
-}
-
-#features .tabpanel_txtblock p {
-    text-align: left;
-    margin: 0px 0px 35px 0px;
-}
-
-#features .tabpanel_imgblock {
-    width: 40%;
-    display: block;
-    float: right;
-    max-height: 570px;
-}
-
-#features .tabpanel_imgblock img {
-    max-height: 570px;
-    float: right;
-}
-
-#features .tab-content > .tab-pane {
-    margin-bottom: 30px;
-    min-height: 570px;
+    margin: 0px 0px 70px 0px;
+    color: #fff;
 }
 
 #features .nav_tabs_wrap {
-    padding-top: 20px;
+	padding-top: 20px;
+	width: 900px;
+    margin-left: 135px;
+}
+.parallax_sec1 #features .nav_tabs_wrap {
+	
+	width: 100%;
+    margin-left: 0;
 }
 
 #features .nav-tabs {
-    border: 1px solid #dcdcdc;
-    border-radius: 10px;
+    border: none;
+    width: 73%;
+    margin: 0 auto;
 }
 
 #features .nav-tabs > li > a {
     border: none;
-    padding: 15px 67.2px 15px 68px;
-    color: #777;
-    font-weight: 600;
+    padding: 15px 33px 15px 33px;
+    width: 205px;
+    color: #dedede;
     text-transform: uppercase;
+}
+
+#features .nav-tabs > li > a i {
+    font-size: 50px;
+    display: block;
+    margin-bottom: 20px;
 }
 
 #features .nav-tabs > li.active > a, #features .nav-tabs > li.active > a:hover, #features .nav-tabs > li.active > a:focus {
     border: none;
-    color: #2a2a2a;
+    color: #fff;
     cursor: pointer;
     background-color: transparent;
 }
 
 #features .nav-tabs > li > a:hover, #features .nav-tabs > li > a:focus {
     border: none;
-    color: #2a2a2a;
+    color: #fff;
 }
 
 #features .nav-tabs > li.active > a:hover, #features .nav-tabs > li.active > a:focus, #features .nav > li > a:hover, #features .nav > li > a:focus {
@@ -5245,24 +5222,92 @@ a.knowmore_but:hover {
 }
 
 #features .nav-tabs > li.active > a:before {
-    background: url(../images/feature_arrow.png) no-repeat 0px center;
-    content: "";
-    height: 10px;
-    left: 127px;
     position: absolute;
-    top: -9px;
-    width: 18px;
-    z-index: 9;
+    bottom: -40px;
+    left: 87px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #F0EFF0;
+    z-index: 999999999;
 }
 
 #features .nav-tabs > li > a:hover:before,
 #features .nav-tabs > li > a:focus:before {
-    background: url(../images/feature_arrow.png) no-repeat 0px center;
-    content: "";
-    height: 10px;
-    left: 127px;
     position: absolute;
-    top: -9px;
-    width: 18px;
-    z-index: 9;
+    bottom: -40px;
+    left: 87px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #F0EFF0;
+    z-index: 999999999;
+}
+
+#features_detail .tabpanel_list li {
+    color: #777;
+    padding: 5px 5px 5px 35px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    background: url(../images/price_checked.png) no-repeat left center;
+}
+
+#features_detail .tabpanel_txtblock {
+    width: 55%;
+    display: block;
+    float: left;
+}
+
+#features_detail .tabpanel_txtblock h3 {
+    text-align: left;
+    font-size: 26px;
+    line-height: 30px;
+    margin: 0px 0px 20px 0px;
+    font-weight: 400;
+}
+.parallax_sec1 #features_detail .tabpanel_txtblock h3,
+.parallax_sec1 #features_detail .tabpanel_txtblock p {
+	color:white;
+}
+#features_detail .tabpanel_txtblock p {
+    text-align: left;
+    margin: 0px 0px 35px 0px;
+    font-weight: 400;
+	font-size:14px;
+}
+
+#features_detail .tabpanel_imgblock {
+    width: 40%;
+    display: block;
+    float: right;
+    max-height: 570px;
+}
+
+#features_detail .tabpanel_imgblock img {
+    max-height: 570px;
+    float: right;
+}
+
+#features_detail .tab-content > .tab-pane {
+    margin-bottom: 30px;
+    min-height: 50px;
+}
+#features_detail {
+    width: 100%;
+    min-height: 50px;
+    padding: 80px 0px 80px 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.parallax_sec1 #features_detail {
+	background-color: #0390d4;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
