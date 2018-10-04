@@ -4,12 +4,24 @@ body{font:12px/28px ;}
 #header{margin:0px 0 0}
 #trueHeader{z-index:8000;left:0;right:0;padding:0px 0;box-shadow:0 1px 5px rgba(0,0,0,0.2);-khtml-box-shadow:0 1px 5px rgba(0,0,0,0.2);-webkit-box-shadow:0 1px 5px rgba(0,0,0,0.2);-moz-box-shadow:0 1px 5px rgba(0,0,0,0.2);-ms-box-shadow:0 1px 5px rgba(0,0,0,0.2);-o-box-shadow:0 1px 5px rgba(0,0,0,0.2);transition:padding 0.35s ease;-khtml-transition:padding 0.35s ease;-webkit-transition:padding 0.35s ease;-moz-transition:padding 0.35s ease;-ms-transition:padding 0.35s ease;-o-transition:padding 0.35s ease;background-color:transparent;zoom:1}
 
+#header.sticky {
+	position: absolute;
+}
 #trueHeader {
-	background: #272727;
+	background-color:rgba(39, 39, 39, 30%);
+	-moz-transition: background-color 1s;
+	transition: background-color 1s;
 }
 
 #header.sticky #trueHeader{position:fixed;top:0}
-#header.sticky.condensed #trueHeader{padding:0px 0}
+#header.sticky.condensed
+{	
+	z-index: 8000;
+}
+#header.sticky.condensed #trueHeader {
+	padding:0px 0;
+	background-color:rgba(39, 39, 39, 100%);		
+}
 
 @media only screen and (min-width: 768px) and (max-width: 999px){
 

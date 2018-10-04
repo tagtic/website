@@ -38,6 +38,17 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+@font-face {
+    font-family: 'abeatbyKai';
+    src: url('fonts/AbeatbyKai.eot');
+    src: url('fonts/AbeatbyKai.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AbeatbyKai.woff') format('woff'),
+        url('fonts/AbeatbyKai.ttf') format('truetype'),
+        url('fonts/AbeatbyKai.svg#AbeatbyKai') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .site_wrapper {
 	width: 100%;
@@ -181,7 +192,7 @@
 .logo {
     float: left;
     width: 14%;
-    background-color: #1da4dd;
+    /* background-color: #1da4dd; */
 }
 .logo img {
     float: left;

@@ -102,8 +102,8 @@
 
 <body>
 
-<div class="site_wrapper">
-    <div id="header" class="sticky" style="height: 90px;">
+<div class="site_wrapper" id="home">
+    <div id="header" class="sticky">
     
         <div id="trueHeader">
         
@@ -114,7 +114,9 @@
             <header>
             
                 <!-- Logo -->
-                <div class="logo"><a href="#home" data-scroll=""><img src="images/logo.png" alt=""></a></div>
+                <div class="logo"><a href="#home" data-scroll="">
+                    <img src="images/logo_digiwall.svg" width="100%" height="90px" alt="">
+                </a></div>
                 
                 <!-- Menu -->
                 <div class="menu_main">
@@ -122,12 +124,12 @@
                 <a href="#" class="nav-toggle" aria-hidden="true">Menu</a><nav class="nav-collapse nav-collapse-0 closed" style="transition: max-height 284ms ease 0s; position: relative;" aria-hidden="false">
                     <ul>
                       <li class="active"><a href="#home" data-scroll=""><i class="fa fa-circle"></i>DigiWall</a></li>
-                      <li class=""><a href="#section3" data-scroll><i class="fa fa-circle"></i>Notre approche</a></li>
+                      <li class=""><a href="#ourapproach" data-scroll><i class="fa fa-circle"></i>Notre approche</a></li>
                       <li class=""><a href="#ourservices" data-scroll><i class="fa fa-circle"></i>Nos services</a></li>
                       <li class=""><a href="#whoweare" data-scroll><i class="fa fa-circle"></i>Qui sommes-nous</a></li>
-                      <li class=""><a href="#pricing" data-scroll=""><i class="fa fa-circle"></i>Team</a></li>
-                      <li class=""><a href="#blog" data-scroll=""><i class="fa fa-circle"></i>Nos clients</a></li>
-                      <li class=""><a href="#contact" data-scroll=""><i class="fa fa-circle"></i>Contact</a></li>
+                      <li class=""><a href="#whoweare"  data-scroll=""><i class="fa fa-circle"></i>Team</a></li>
+                      <li class=""><a href="#whoweare"  data-scroll=""><i class="fa fa-circle"></i>Nos clients</a></li>
+                      <li class=""><a href="#whoweare"  data-scroll=""><i class="fa fa-circle"></i>Contact</a></li>
                     </ul>
                 </nav>
                 
@@ -142,7 +144,7 @@
         </div>
         
     </div>
-</div>
+
 <div class="clearfix"></div>
 
 <!-- Slider
@@ -408,7 +410,7 @@
     </div>
 </div>
 </div><!-- end features section 2 -->
-<div class="clearfix" id="section3"></div>
+<div class="clearfix" id="ourapproach"></div>
 
 
 <div class="feature_section3" >
@@ -478,10 +480,10 @@
 
 
 
-<div class="clearfix" id="ourservices"></div>
+<div class="clearfix" ></div>
 
 <div class="parallax_sec1">
-<div class="container" >
+<div class="container" id="ourservices">
 
 	<h2 class="white">
     Nos <strong>services</strong>
@@ -537,9 +539,9 @@
         
 </div>
 
-
+    <div class="clearfix" id="whoweare"></div>
     <!-- Features Start -->
-    <div id="features" id="whoweare">
+    <div id="features">
         <div class="container animate"  data-anim-type="fadeInUp">
             <h2>Qui sommes-nous?</h2>
             <div class="nav_tabs_wrap">
@@ -617,9 +619,6 @@
     
 </div><!-- end parallax sec 1 -->
       
-
-<div class="clearfix"></div>
-
 
 <div class="clearfix"></div>
 
@@ -785,7 +784,7 @@
 
 
 </div>
-
+</div>
     
 <!-- ######### JS FILES ######### -->
 <!-- get jQuery from the google apis -->
@@ -831,6 +830,12 @@ slider.control('bullets');
 <!-- mega menu -->
 <script src="js/mainmenu/bootstrap.min.js"></script> 
 <script src="js/mainmenu/customeUI.js"></script> 
+
+<!-- menu -->
+<script src="js/mainmenu/responsive-nav.js"></script>
+<script src="js/mainmenu/fastclick.js"></script>
+<script src="js/mainmenu/scroll.js"></script>
+<script src="js/mainmenu/fixed-responsive-nav.js"></script>
 
 <!-- jquery jcarousel -->
 <script type="text/javascript" src="js/carousel/jquery.jcarousel.min.js"></script>

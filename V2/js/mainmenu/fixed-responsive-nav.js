@@ -37,7 +37,7 @@
     var navigation = responsiveNav(".nav-collapse", {
 
       // Close the navigation when it's tapped
-      closeOnNavClick: true
+      closeOnNavClick: true      
     });
 
     // Create a Mask
@@ -64,7 +64,7 @@
       content = [];
       forEach(links, function (i, el) {
         var href = links[i].getAttribute("href").replace("#", "");
-        content.push(document.getElementById(href).offsetTop + 200);
+        content.push(document.getElementById(href).offsetTop );
       });
     };
 
