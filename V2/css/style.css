@@ -338,26 +338,72 @@
 }
 
 /* features section 2 */
-.feature_section2 {
+#ourapproach {
 	float: left;
 	width: 100%;
 	padding: 70px 0px 50px 0px;
 	background-color: #0390d4;
 }
-.feature_section2 h2 {
+#ourapproach h2 {
 	text-align: center;
 	color: white;
 }
-.feature_section2 h4,
-.feature_section2 li {
-	color: white;
+#ourapproach h4,
+#ourapproach li {
+	color: white;		
+}
+#ourapproach li {
+	font-size: 18px;
+	line-height: 30px;
+}
+#ourapproach li span {
+	display: inline-flex;    
+    width: calc(100% - 30px);
 }
 
-.feature_section2 .left {
+#ourapproach .left {
 	float: left;
 	width: 40%;
 }
-.feature_section2 .right {
+#ourapproach .right {
+	float: left;
+	width: 57%;
+	padding-top: 50px;
+	color: #999;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 300;
+}
+
+/* ourservices-text*/
+#ourservices-text {
+	float: left;
+	width: 100%;
+	padding: 70px 0px 50px 0px;
+	background-color: rgba(38, 38, 38,70%);
+}
+#ourservices-text 42 {
+	text-align: center;
+	color: white;
+}
+#ourservices-text h4,
+#ourservices-text li {
+	color: white;		
+}
+#ourservices-text li {
+	font-size: 18px;
+	line-height: 30px;
+}
+#ourservices li span {
+	display: inline-flex;    
+    width: calc(100% - 30px);
+}
+
+#ourservices-text .left {
+	float: left;
+	width: 40%;
+}
+#ourservices-text .right {
 	float: left;
 	width: 57%;
 	padding-top: 50px;
@@ -5288,7 +5334,7 @@ a.knowmore_but:hover {
     text-align: left;
     margin: 0px 0px 35px 0px;
     font-weight: 400;
-	font-size:14px;
+	font-size:17px;
 }
 
 #features_detail .tabpanel_imgblock {
@@ -5310,7 +5356,7 @@ a.knowmore_but:hover {
 #features_detail {
     width: 100%;
     min-height: 50px;
-    padding: 80px 0px 80px 0px;
+    padding: 80px 0px 40px 0px;
     margin: 0px;
     overflow: hidden;
 }
