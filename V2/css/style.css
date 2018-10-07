@@ -5383,3 +5383,16 @@ a.knowmore_but:hover {
 .clients .jcarousel-skin-tango .jcarousel-item img {
 	max-height: 100%;
 }
+
+.footer1 p,
+.footer1 .sky-form .radio, .footer1 .sky-form .checkbox,
+.footer1 .sky-form,
+.footer1 .sky-form header {
+	color: white;
+}
+.footer1 .sky-form .button {
+	background-color: gray;
+}
+.footer1 .address_info h4 {
+	color: darkgray;
+}
