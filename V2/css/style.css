@@ -5374,3 +5374,12 @@ a.knowmore_but:hover {
     max-width: 100%;
     height: auto;
 }
+.clients .jcarousel-skin-tango .jcarousel-item a {	
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.clients .jcarousel-skin-tango .jcarousel-item img {
+	max-height: 100%;
+}
