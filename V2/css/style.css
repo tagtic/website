@@ -5396,3 +5396,6 @@ a.knowmore_but:hover {
 .footer1 .address_info h4 {
 	color: darkgray;
 }
+.footer1 .sky-form.submited .message {
+	background-color: initial;
+}
