@@ -823,13 +823,13 @@
 
                     <div class="one_half">
 
-                        <p>Sans aucun frais ni engagement de votre part bénéficiez de la première étape permettant d’évaluer votre niveau de digitalisation actuelle</p>
+                        <h4>Sans aucun frais ni engagement de votre part bénéficiez de la première étape permettant d’évaluer votre niveau de digitalisation actuelle</h4>
                         <br/>
                         <br/>
                         <div class="cforms">
 
-                            <form action="demo-contacts.php" method="post" id="sky-form" class="sky-form">
-                                <header>Contact <strong>Form</strong></header>
+                            <form action="https://formspree.io/gianni@digiwall.be" method="post" name="input" id="sky-form" class="sky-form">
+                                <header>Formulaire de <strong>contact</strong></header>
                                 <fieldset>
                                     <div class="row">
                                         <section class="col col-6">
@@ -848,7 +848,7 @@
                                     <section>
                                         <label class="label">Société</label>
                                         <label class="input"> 
-                                            <input type="text" name="subject" id="subject">
+                                            <input type="text" name="company" id="subject">
                                         </label>
                                     </section>
                                     <section>
@@ -863,11 +863,11 @@
                                             <textarea rows="4" name="message" id="message"></textarea>
                                         </label>
                                     </section>
-                                    <section>
+                                    <!-- <section>
                                         <label class="checkbox">
                                             <input type="checkbox" name="copy" id="copy">
-                                            <i></i>Envoyer moi une copie par E-mail</label>
-                                    </section>
+                                            <i class="fas"></i>Envoyer moi une copie par E-mail</label>
+                                    </section> -->
                                 </fieldset>
                                 <footer>
                                     <button type="submit" class="button">Envoyer</button>
@@ -924,7 +924,7 @@
 
                 <div class="one_half last">
 
-                    <ul class="footer_social_links">
+                    <!-- <ul class="footer_social_links">
                         <li class="animate" data-anim-type="zoomIn"><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li class="animate" data-anim-type="zoomIn"><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li class="animate" data-anim-type="zoomIn"><a href="#"><i class="fa fa-google-plus"></i></a></li>
@@ -934,7 +934,7 @@
                         <li class="animate" data-anim-type="zoomIn"><a href="#"><i class="fa fa-html5"></i></a></li>
                         <li class="animate" data-anim-type="zoomIn"><a href="#"><i class="fa fa-youtube"></i></a></li>
                         <li class="animate" data-anim-type="zoomIn"><a href="#"><i class="fa fa-rss"></i></a></li>
-                    </ul>
+                    </ul> -->
 
                 </div>
 
@@ -1079,16 +1079,17 @@
                 {
                     name:
                     {
-                        required: 'Please enter your name',
+                        required: 'Veuillez entrez un nom',
                     },
                     email:
                     {
-                        required: 'Please enter your email address',
-                        email: 'Please enter a VALID email address'
+                        required: 'Veuillez entrez votre adresse email',
+                        email: 'Veuillez entrez une adresse email valide'
                     },
                     message:
                     {
-                        required: 'Please enter your message'
+                        required: 'Veuillez entrez votre message',
+                        minlength: 'Votre message est trop court'
                     }
                 },
                                     
