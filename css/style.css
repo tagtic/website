@@ -375,6 +375,43 @@
 	font-weight: 300;
 }
 
+#ourapproach2 {
+	float: left;
+	width: 100%;
+	padding: 70px 0px 50px 0px;
+	/* background-color: #0390d4; */
+}
+#ourapproach2 h2 {
+	text-align: center;
+	/* color: white; */
+}
+#ourapproach2 h4,
+#ourapproach2 li {
+	/* color: white;		 */
+}
+#ourapproach2 li {
+	font-size: 18px;
+	line-height: 30px;
+}
+#ourapproach2 li span {
+	display: inline-flex;    
+    width: calc(100% - 30px);
+}
+
+#ourapproach2 .left {
+	float: left;
+	width: 40%;
+}
+#ourapproach2 .right {
+	float: left;
+	width: 57%;
+	padding-top: 50px;
+	color: #999;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 300;
+}
+
 /* ourservices-text*/
 #ourservices-text {
 	float: left;
@@ -5225,9 +5262,14 @@ a.knowmore_but:hover {
     display: inline-block;
     text-align: center;
 }
+
 #features h2 span {
     font-weight: 800;
 }
+#features h3 {
+	color: #FFFFFF;
+}
+
 #features p {
     font-size: 17px;
     line-height: 25px;
