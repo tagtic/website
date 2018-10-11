@@ -5450,11 +5450,12 @@ a.knowmore_but:hover {
 	color: #fff;
 	padding: 40px 30px;
 	border-radius: 60px;
-	height: 160px;
+	height: 200px;
 	background: rgba(0, 0, 0, 0.1) linear-gradient(to bottom, rgba(7, 82, 150, 0.6) 0%, #09C7E0 100%) repeat scroll 0 0;
 	background-size: cover;
 	position: relative;
 	position: relative;
+	display: inline-table;
   }
   /* .single-testimonial .client-say::after {
 	position: absolute;
@@ -5485,7 +5486,7 @@ a.knowmore_but:hover {
   }
   .testimonial-active,
   .testimonial-active .slick-list {
-	  min-height: 200px;
+	  min-height: 220px;
   }
   .testimonial-active .slick-dots {
 	margin-top: 40px;
@@ -5544,10 +5545,15 @@ a.knowmore_but:hover {
 	border-radius: 50%;
 	z-index: 999;
   }
+  .testimonial-active.center-testimonial .single-testimonial .client-say p {
+	font-size: 16px;
+	line-height: 30px;
+	display: table-cell;
+	vertical-align: middle;
+
+  }
   .testimonial-active.center-testimonial .single-testimonial .client-say {
 	color: #333;
-	font-size: 18px;
-	line-height: 30px;
 	background: rgba(0, 0, 0, 0.1) linear-gradient(to bottom, rgba(221, 221, 221, 0.6) 0%, #F6F6F6 100%) repeat scroll 0 0;
   }
   .testimonial-active.center-testimonial .single-testimonial .client-say::after {
