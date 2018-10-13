@@ -5501,6 +5501,26 @@ a.knowmore_but:hover {
 	position: relative;
 	display: inline-table;
   }
+  .single-testimonial .customer {
+	color: #fff;	
+	width: 190px;
+	height: 130px;
+
+  }
+  .single-testimonial .customer img {
+	  max-height: 100%;
+	  max-width: 100%;
+	  height: auto;	  
+	  display: inline-block;
+	  
+	  margin: auto;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: auto;
+	  right: 0;
+	  bottom: 0;
+  }
   /* .single-testimonial .client-say::after {
 	position: absolute;
 	content: "";
@@ -5624,3 +5644,16 @@ a.knowmore_but:hover {
   .testimonial-active.center-testimonial .slick-slide.slick-center .testimonial-content .client-say::after {
 	border-top: 50px solid #09c7e0;
   }
+
+  #ourcustomers {
+	  padding-top: 40px;
+	  padding-bottom: 40px;
+  }
+  
+  #ourcustomers .slick-prev:before, #ourcustomers .slick-next:before {
+	  color: black;
+  }
+  #ourcustomers .testimonial-active,
+  #ourcustomers .testimonial-active .slick-list {
+	  min-height: 150px;
+	  }
