@@ -5281,12 +5281,48 @@ a.knowmore_but:hover {
 
 #features .nav_tabs_wrap {
 	padding-top: 20px;	
-    margin-left: 135px;
+    /* margin-left: 135px; */
 }
 .parallax_sec1 #features .nav_tabs_wrap {
 	
 	width: 100%;
     margin-left: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	#features .nav-tabs > li > a:hover:before,
+	#features .nav-tabs > li > a:focus:before,
+	#features .nav-tabs > li.active > a:before {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#features .nav-tabs {
+		width: 100%;
+	}
+	.nav-tabs > li {
+		display: inline-block;
+		width: 50%;
+	}
+	#features .nav-tabs > li > a:hover:before,
+	#features .nav-tabs > li > a:focus:before,
+	#features .nav-tabs > li.active > a:before {
+		display: none;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#features .nav-tabs > li {
+        width: 25%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #features .nav-tabs {
+        width: 100%;
+    }
+    #features .nav-tabs > li {
+        width: 25%;
+	}
 }
 
 #features .nav-tabs {
@@ -5446,6 +5482,12 @@ a.knowmore_but:hover {
 /*-- 
     12. Testimonial Area Css
 -----------------*/
+.testimonial-content {
+	position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -140px;
+}
 .single-testimonial .client-say {
 	color: #fff;
 	padding: 40px 30px;
