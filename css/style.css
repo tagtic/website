@@ -191,7 +191,7 @@
 /* header area adinationals */
 .logo {
     float: left;
-    width: 14%;
+    width: 20%;
     /* background-color: #1da4dd; */
 }
 .logo img {
@@ -200,7 +200,7 @@
 }
 .menu_main {
 	float: right;
-    width: 86%;
+    width: 80%;
 }
 
 .slider_ex {
