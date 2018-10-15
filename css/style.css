@@ -396,10 +396,6 @@
 	line-height: 30px;
 	padding-bottom: 10px;
 }
-#ourapproach2 li span {
-	display: inline-flex;    
-    width: calc(100% - 30px);
-}
 
 #ourapproach2 .left {
 	float: left;
