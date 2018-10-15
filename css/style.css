@@ -5244,7 +5244,8 @@ a.knowmore_but:hover {
 
 #features {
     text-align: center;
-    padding-bottom: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
     background: #0390d4;
 }
 .parallax_sec1 #features {
