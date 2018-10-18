@@ -26,6 +26,8 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet'
         type='text/css'>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -43,12 +45,6 @@
 
     <!-- animations -->
     <link href="js/animations/css/animations.min.css" rel="stylesheet" type="text/css" media="all" />
-
-    <!-- mega menu -->
-    <link href="js/mainmenu/sticky.css" rel="stylesheet">
-    <link href="js/mainmenu/bootstrap.min.css" rel="stylesheet">
-    <link href="js/mainmenu/demo.css" rel="stylesheet">
-    <link href="js/mainmenu/menu.css" rel="stylesheet">
 
 
     <!-- Master Slider -->
@@ -75,7 +71,7 @@
     <div class="site_wrapper">
         <div id="header">
 
-            <div id="trueHeader">
+            <!-- <div id="trueHeader">
 
                 <div class="wrapper">
 
@@ -83,17 +79,16 @@
 
                         <header>
 
-                            <!-- Logo -->
-                            <div class="logo"><a href="#home" data-scroll><img src="images/logo.png" alt="" /></a></div>                            
-                                    <!-- <img width="100%" height="90px" alt=""> -->
+                            
+                            <div class="logo"><a href="#home" data-scroll><img src="images/logo.svg" alt="" /></a></div>                            
+                                    
                             
 
-                            <!-- Menu -->
+                            
                             <div class="menu_main">
 
-                                <!-- <a href="#" class="nav-toggle" aria-hidden="true">Menu</a> -->
-                                <nav class="nav-collapse nav-collapse-0 closed" style="transition: max-height 284ms ease 0s; position: relative;"
-                                    aria-hidden="false">
+                                
+                                <nav class="nav-collapse">
                                     <ul>
                                         <li class="active"><a href="#home" data-scroll=""><i class="fa fa-circle"></i>DigiWall</a></li>
                                         <li class=""><a href="#ourapproach" data-scroll><i class="fa fa-circle"></i>Notre
@@ -109,7 +104,7 @@
                                     </ul>
                                 </nav>
 
-                            </div><!-- end menu -->
+                            </div>
 
                         </header>
 
@@ -117,8 +112,42 @@
 
                 </div>
 
-            </div>
+            </div> -->
+            <nav class="navbar navbar-expand-lg dark bg-dark fixed-top">
+                <a class="navbar-brand" href="#home" data-scroll><img src="images/logo.svg" alt="" /></a>
 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home" data-scroll="">DigiWall<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ourapproach" data-scroll>Notre approche</a></li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ourservices" data-scroll>Nos services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#whoweare" data-scroll>Qui sommes-nous</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ourteam" data-scroll>Notre équipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ourcustomers" data-scroll>Nos clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" data-scroll>Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
         </div>
 
         <div class="clearfix"></div>
@@ -424,13 +453,13 @@
                 <!-- <div class="left animate" data-anim-type="fadeInLeft"><img src="images/site-img8.png" alt="" class="img_left" /></div> -->
 
                 <div class="animate" data-anim-type="fadeInRight">
-                    <h2>Pour un investissement mensuel fixe, <br/>
+                    <h2>Pour un investissement mensuel fixe, <br />
                         DigiWall peut devenir votre département de digitalisation :</h2>
                     <ul>
                         <li><i class="fas fa-chevron-circle-right"></i>
                             <span>
                                 Une implication dans votre métier afin de définir la <strong>stratégie
-                                digitale</strong>  adaptée qui vous permettra d’évoluer sur votre marché</span>
+                                    digitale</strong> adaptée qui vous permettra d’évoluer sur votre marché</span>
                         </li>
                         <li><i class="fas fa-chevron-circle-right"></i>
                             <span>
@@ -440,7 +469,7 @@
                         </li>
                         <li><i class="fas fa-chevron-circle-right"></i>
                             <span>
-                                L’assurance d’une <strong>veille technologique</strong> permettant d’identifier 
+                                L’assurance d’une <strong>veille technologique</strong> permettant d’identifier
                                 les nouvelles technologies pouvant être innovantes dans votre secteur
                             </span>
                         </li>
@@ -521,12 +550,16 @@
                             <div class="tabpanel_txtblock animate" data-anim-type="fadeInLeft">
                                 <h3>La mise en place, étape par étape, de votre transformation</h3>
                                 <p>
-                                    Nous mettons en place la transformation digitale de votre entreprise en utilisant nos compétences et celles de
-                                    partenaires externes. Ces partenaires pourront être ceux que vous avez déjà ou d’autres si nécessaire, dans tous les
-                                    cas, DigiWall en assurera la coordination afin d’assurer la réussite de votre transformation digitale.
+                                    Nous mettons en place la transformation digitale de votre entreprise en utilisant
+                                    nos compétences et celles de
+                                    partenaires externes. Ces partenaires pourront être ceux que vous avez déjà ou
+                                    d’autres si nécessaire, dans tous les
+                                    cas, DigiWall en assurera la coordination afin d’assurer la réussite de votre
+                                    transformation digitale.
                                     Cette transformation se fait par <strong>itérations</strong> de 2 à 3
-                                    semaines nous permettant de mesurer et d’ajuster, si nécessaire, les priorités à chaque
-                                    fin d’itération. Cette approche nous permet de rester agile et de s’adapter à 
+                                    semaines nous permettant de mesurer et d’ajuster, si nécessaire, les priorités à
+                                    chaque
+                                    fin d’itération. Cette approche nous permet de rester agile et de s’adapter à
                                     l’évolution de votre métier et aux connaissances acquises durant les premières
                                     itérations. Durant toute cette mise en place nous travaillons de concert avec vous
                                     et en toute <strong>transparence</strong>. Si à un moment vous n’êtes pas convaincu
@@ -706,12 +739,13 @@
                                 <h3>Notre approche</h3>
                                 <p>
                                     Nous aimons notre métier et il est important pour nous de le faire dans les
-                                    meilleures conditions. Nous privilégions toujours une <strong>implication sur la durée</strong> avec
+                                    meilleures conditions. Nous privilégions toujours une <strong>implication sur la
+                                        durée</strong> avec
                                     nos clients. Notre but n'est pas uniquement de développer des solutions pour nos
                                     clients
                                     mais bien de les mettre en place au sein de l'entreprise et de s'assurer qu'elles
                                     soient correctement utilisées, que celles-ci amènent véritablement les <strong>bénéfices
-                                    attendus.</strong>
+                                        attendus.</strong>
                                 </p>
                             </div>
                             <div class="tabpanel_imgblock animate" data-anim-type="fadeInRight">
@@ -845,7 +879,7 @@
 
                 <!-- <div class="hbigline">&nbsp;</div>
                 <div class="margin_top5"></div> -->
-                
+
                 <div class="animate" data-anim-type="fadeInRight">
 
                     <div class="row testimonial-active center-testimonial" id="customers">
@@ -1102,10 +1136,15 @@
 
     <!-- get jQuery from the google apis -->
     <script type="text/javascript" src="js/universal/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
 
     <!-- animations -->
     <script src="js/animations/js/animations.min.js" type="text/javascript"></script>
-
+    <script src="js/mainmenu/scroll.js" type="text/javascript"></script>
 
     <!-- Master Slider -->
     <script src="js/masterslider/jquery.easing.min.js"></script>
@@ -1113,7 +1152,8 @@
     <script type="text/javascript">
         (function ($) {
             "use strict";
-
+            // Init smooth scrolling
+            smoothScroll.init();
             var slider = new MasterSlider();
             slider.setup('masterslider', {
                 width: 1400,    // slider standard width
@@ -1133,42 +1173,14 @@
         })(jQuery);
     </script>
 
-    <!-- mega menu -->
-    <script src="js/mainmenu/bootstrap.min.js"></script>
-    <script src="js/mainmenu/customeUI.js"></script>
 
-    <!-- menu -->
-    <script src="js/mainmenu/responsive-nav.js"></script>
-    <script src="js/mainmenu/fastclick.js"></script>
-    <script src="js/mainmenu/scroll.js"></script>
-    <script src="js/mainmenu/fixed-responsive-nav.js"></script>
-
-    <!-- jquery jcarousel -->
-    <script type="text/javascript" src="js/carousel/jquery.jcarousel.min.js"></script>
 
     <!-- scroll up -->
     <script src="js/scrolltotop/totop.js" type="text/javascript"></script>
 
-    <!-- jquery jcarousel -->
-    <script type="text/javascript">
-        (function ($) {
-            "use strict";
-
-            jQuery(document).ready(function () {
-                jQuery('#mycarouselthree').jcarousel();
-            });
-
-        })(jQuery);
-    </script>
 
 
-    <!-- sticky menu -->
-    <script type="text/javascript" src="js/mainmenu/sticky.js"></script>
-    <script type="text/javascript" src="js/mainmenu/modernizr.custom.75180.js"></script>
 
-    <!-- carousel -->
-    <script defer src="js/carousel/jquery.flexslider.js"></script>
-    <script defer src="js/carousel/custom.js"></script>
 
     <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
@@ -1180,8 +1192,12 @@
     <script type="text/javascript">
         (function ($) {
             "use strict";
-
             $(function () {
+                $("nav .nav-link").on("click", function () {                    
+                    $("nav").find(".active").removeClass("active");
+                    $(this).parent().addClass("active");
+                });
+
                 // Validation
                 $("#sky-form").validate(
                     {

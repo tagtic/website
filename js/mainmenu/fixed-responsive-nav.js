@@ -37,7 +37,7 @@
     var navigation = responsiveNav(".nav-collapse", {
 
       // Close the navigation when it's tapped
-      closeOnNavClick: true      
+      closeOnNavClick: true
     });
 
     // Create a Mask
@@ -64,12 +64,7 @@
       content = [];
       forEach(links, function (i, el) {
         var href = links[i].getAttribute("href").replace("#", "");
-        content.push(
-          {
-            offset: document.getElementById(href).offsetTop,
-            height: document.getElementById(href).clientHeight
-          } 
-          );
+        content.push(document.getElementById(href).offsetTop + 200);
       });
     };
 
@@ -109,7 +104,7 @@
       // For each content link, when it's in viewport, highlight it
       if (!wasNavigationTapped) {
         forEach(content, function (i, loc) {
-          if ((loc.offset > top && (loc.offset < top + (loc.height/2) || (top + viewport) >= bodyheight))) {
+          if ((loc > top && (loc < top + 300 || (top + viewport) >= bodyheight))) {
             selectActiveMenuItem(i);
           }
         });
