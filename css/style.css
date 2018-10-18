@@ -5712,3 +5712,17 @@ font-weight: 600;
 navbar.navbar-dark {
 	background: #272727;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	/* .navbar-brand {
+		max-width: 250px;
+	}*/
+	.navbar-brand > img {
+		max-width: 175px;
+	} 
+}
+html, body {
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+}
