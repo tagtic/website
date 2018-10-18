@@ -488,16 +488,16 @@
                         digitalisation</h3>
                     <div class="nav_tabs_wrap">
                         <ul class="nav nav-tabs">
-                            <li class="active">
-                                <a href="#existing" data-toggle="tab"><i class="bi bi-responsive-device"></i>1.
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#existing" data-toggle="tab"><i class="bi bi-responsive-device"></i>1.
                                     Existant</a>
                             </li>
-                            <li>
-                                <a href="#opportunities" data-toggle="tab"><i class="bi bi-code-clean"></i>2.
+                            <li class="nav-item">
+                                <a  class="nav-link"href="#opportunities" data-toggle="tab"><i class="bi bi-code-clean"></i>2.
                                     Opportunités</a>
                             </li>
-                            <li>
-                                <a href="#realization" data-toggle="tab"><i class="bi bi-chat-bubble"></i>3.
+                            <li class="nav-item">
+                                <a class="nav-link" href="#realization" data-toggle="tab"><i class="bi bi-chat-bubble"></i>3.
                                     Réalisation</a>
                             </li>
                         </ul>
@@ -679,18 +679,18 @@
                     <h2>Qui sommes-nous?</h2>
                     <div class="nav_tabs_wrap">
                         <ul class="nav nav-tabs">
-                            <li class="active">
-                                <a href="#story" data-toggle="tab"><i class="bi bi-responsive-device"></i>Notre
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#story" data-toggle="tab"><i class="bi bi-responsive-device"></i>Notre
                                     histoire</a>
                             </li>
-                            <li>
-                                <a href="#vision" data-toggle="tab"><i class="bi bi-code-clean"></i>Notre vision</a>
+                            <li class="nav-item">
+                                <a  class="nav-link" href="#vision" data-toggle="tab"><i class="bi bi-code-clean"></i>Notre vision</a>
                             </li>
-                            <li>
-                                <a href="#approach" data-toggle="tab"><i class="bi bi-chat-bubble"></i>Notre approche</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#approach" data-toggle="tab"><i class="bi bi-chat-bubble"></i>Notre approche</a>
                             </li>
-                            <li>
-                                <a href="#values" data-toggle="tab"><i class="bi bi-chat-bubble"></i>Nos valeurs</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#values" data-toggle="tab"><i class="bi bi-chat-bubble"></i>Nos valeurs</a>
                             </li>
                         </ul>
                     </div>
@@ -1195,6 +1195,10 @@
             $(function () {
                 $("nav .nav-link").on("click", function () {                    
                     $("nav").find(".active").removeClass("active");
+                    $(this).parent().addClass("active");
+                });
+                $(".nav_tabs_wrap .nav-link").on("click", function () {                    
+                    $(".nav_tabs_wrap").find(".active").removeClass("active");
                     $(this).parent().addClass("active");
                 });
 
