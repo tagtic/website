@@ -53,6 +53,7 @@
 .site_wrapper {
 	width: 100%;
 	margin: 0 auto 0 auto;
+	padding-top: 5rem;
 }
 .container_full {
 	width: 100%;
@@ -5660,6 +5661,9 @@ a.knowmore_but:hover {
 	  {
 		  height: 90px;
 	  } */
+nav {
+	min-height: 5rem;
+}
 .navbar-collapse ul {
 font: 14px 'Open Sans', sans-serif;
 text-transform: uppercase;
