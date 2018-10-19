@@ -343,7 +343,7 @@
 	float: left;
 	width: 100%;
 	padding: 70px 0px 50px 0px;
-	background-color: #0390d4;
+	background-color: #7B316F;
 }
 #ourapproach h2 {
 	text-align: center;
@@ -382,7 +382,7 @@
 	float: left;
 	width: 100%;
 	padding: 70px 0px 50px 0px;
-	/* background-color: #0390d4; */
+	/* background-color: #7B316F; */
 }
 #ourapproach2 h2 {
 	text-align: center;
@@ -1467,7 +1467,7 @@ ul.fun_facts {
 	width: 100%;
 	text-align: left;
 	padding: 80px 0px 40px 0px;
-	background-color: #0390d4;
+	background-color: #7B316F;
 	border-top: 0px solid #e0e0e0;
 	border-bottom: 0px solid #e0e0e0;
 }
@@ -5247,7 +5247,7 @@ a.knowmore_but:hover {
     text-align: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
-    background: #0390d4;
+    background: #7B316F;
 }
 .parallax_sec1 #features {
 	background: transparent;
@@ -5449,7 +5449,7 @@ a.knowmore_but:hover {
     overflow: hidden;
 }
 .parallax_sec1 #features_detail {
-	background-color: #0390d4;
+	background-color: #7B316F;
 }
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
