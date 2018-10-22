@@ -222,7 +222,7 @@
 .ms-slide-layers {
 	z-index: 2 !important;
 }
-.mstslider:before {
+/* .mstslider:before {
     content: "";
     position: absolute;
     top: 0;
@@ -233,7 +233,7 @@
     background-image: -webkit-linear-gradient(bottom left, rgba(130, 85, 166, 0.7), rgba(159, 78, 168, 0.7), rgba(188, 67, 164, 0.7), rgba(216, 51, 154, 0.7), rgba(241, 24, 139, 0.7));
     background-image: -o-linear-gradient(bottom left, rgba(130, 85, 166, 0.7), rgba(159, 78, 168, 0.7), rgba(188, 67, 164, 0.7), rgba(216, 51, 154, 0.7), rgba(241, 24, 139, 0.7));
     background-image: linear-gradient(to top right, rgba(130, 85, 166, 0.7), rgba(159, 78, 168, 0.7), rgba(188, 67, 164, 0.7), rgba(216, 51, 154, 0.7), rgba(241, 24, 139, 0.7));
-}
+} */
 
 .slidershadow {
 	float: left;
